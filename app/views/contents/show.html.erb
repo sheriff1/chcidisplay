@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Contenttype:</b>
+  <%= @content.contenttype %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @content.title %>
+</p>
+
+<p>
+  <b>Username:</b>
+  <%= @content.username %>
+</p>
+
+<p>
+  <b>Date created:</b>
+  <%= @content.date_created %>
+</p>
+
+<p>
+  <b>Bodytext:</b>
+  <%= @content.bodytext %>
+</p>
+
+<p>
+  <b>Date of:</b>
+  <%= @content.date_of %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @content.location %>
+</p>
+
+<p>
+  <b>Attachment:</b>
+  <%= @content.attachment %>
+</p>
+
+<p>
+  <b>Link:</b>
+  <%= @content.link %>
+</p>
+
+
+<%= link_to 'Edit', edit_content_path(@content) %> |
+<%= link_to 'Back', contents_path %>
