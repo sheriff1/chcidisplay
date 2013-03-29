@@ -1,9 +1,8 @@
-##### The Idea ##### 
---------
-a website that displays information about upcoming events and other announcements pertinent to the department. 
+##The Idea
 
+A website that displays information about upcoming events and other announcements pertinent to the department. 
 
-##### WHY? ##### 
+##WHY?
 --------
 - to spread information better, more time-effective, and more socially
 
